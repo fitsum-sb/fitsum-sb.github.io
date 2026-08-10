@@ -204,6 +204,13 @@ export const service = [
   },
   {
     year: "2026",
+    title: "Instructor & Model Developer",
+    organization:
+      "College of Engineering Summer Bridge Program — CAIL (Critical AI Literacy)",
+    href: "https://inclusion.engr.psu.edu/assets/docs/FINAL-Summer-Bridge-Flyer-2024.pdf",
+  },
+  {
+    year: "2026",
     title: "Reviewer",
     organization: "International Conference on Cognitive Modeling (ICCM)",
     href: "https://iccm-conference.github.io/",
