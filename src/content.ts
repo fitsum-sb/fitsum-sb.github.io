@@ -193,6 +193,11 @@ export const updates = [
     date: "Nov 2025",
     text: "Joined a cross-institutional planning meeting for humanities and artificial intelligence (AI) research."
   },
+  {
+    date: "Sep 2025",
+    text: "Presented my full paper at the IEEE International Symposium on Technology and Society (ISTAS'25).",
+    href: "https://ieeexplore.ieee.org/document/11269615",
+  },
 ];
 
 export const service = [

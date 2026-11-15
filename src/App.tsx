@@ -262,7 +262,7 @@ function App() {
             </section> */}
 
             <section className="content-section activity-section" id="news">
-              <SectionHeader index="03" title="News" command="tail -n 3 ./news.log" />
+              <SectionHeader index="03" title="News" command={`tail -n ${updates.length} ./news.log`} />
               <div className="update-list update-list--grid">
                 {updates.map((item) => (
                   <div className="update-row" key={`${item.date}-${item.text}`}>
