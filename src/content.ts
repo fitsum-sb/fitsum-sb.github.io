@@ -197,6 +197,24 @@ export const updates = [
 
 export const service = [
   {
+    year: "2027",
+    title: "PC member",
+    organization: "SIGCSE TS 2027",
+    href: "https://easychair.org/conferences/submissions?a=37743839",
+  },
+  {
+    year: "2027",
+    title: "PC member (Main Track)",
+    organization: "EAAI-27",
+    href: "https://easychair.org/conferences/submissions?a=37537337",
+  },
+  {
+    year: "2027",
+    title: "Conference Reviewer",
+    organization: "ACM FAccT 2027",
+    href: "",
+  },
+  {
     year: "2026-Present",
     title: "President",
     organization: "Computer Science and Engineering Graduate Student Association (CSE-GSA)",
@@ -211,9 +229,9 @@ export const service = [
   },
   {
     year: "2026",
-    title: "Reviewer",
-    organization: "International Conference on Cognitive Modeling (ICCM)",
-    href: "https://iccm-conference.github.io/",
+    title: "PC member",
+    organization: "International Conference on Cognitive Modeling (ICCM26)",
+    href: "https://easychair.org/conferences/submissions?a=36407696",
   },
   {
     year: "2025-26",
