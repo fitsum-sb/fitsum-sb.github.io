@@ -197,22 +197,26 @@ export const updates = [
 
 export const service = [
   {
-    year: "2027",
-    title: "PC member",
-    organization: "SIGCSE TS 2027",
-    href: "https://easychair.org/conferences/submissions?a=37743839",
-  },
-  {
-    year: "2027",
-    title: "PC member (Main Track)",
-    organization: "EAAI-27",
-    href: "https://easychair.org/conferences/submissions?a=37537337",
-  },
-  {
-    year: "2027",
-    title: "Conference Reviewer",
-    organization: "ACM FAccT 2027",
-    href: "",
+    year: "2026",
+    title: "PC member / Reviewer",
+    conferences: [
+      {
+        label: "SIGCSE TS 2027",
+        href: "https://easychair.org/conferences/submissions?a=37743839",
+      },
+      {
+        label: "EAAI-27 (Main Track)",
+        href: "https://easychair.org/conferences/submissions?a=37537337",
+      },
+      {
+        label: "ACM FAccT 2027",
+        href: "",
+      },
+      {
+        label: "ICCM26",
+        href: "https://easychair.org/conferences/submissions?a=36407696",
+      },
+    ],
   },
   {
     year: "2026-Present",
@@ -226,12 +230,6 @@ export const service = [
     organization:
       "College of Engineering Summer Bridge Program — CAIL (Critical AI Literacy)",
     href: "https://inclusion.engr.psu.edu/assets/docs/FINAL-Summer-Bridge-Flyer-2024.pdf",
-  },
-  {
-    year: "2026",
-    title: "PC member",
-    organization: "International Conference on Cognitive Modeling (ICCM26)",
-    href: "https://easychair.org/conferences/submissions?a=36407696",
   },
   {
     year: "2025-26",

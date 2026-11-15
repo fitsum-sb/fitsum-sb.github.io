@@ -285,12 +285,26 @@ function App() {
                     {service.map((item) => (
                       <div className="compact-row" key={`${item.year}-${item.title}`}>
                         <span>{item.year}</span>
-                        <p>
-                          <strong>{item.title}</strong><br />
-                          {item.href ? (
-                            <a href={item.href} target="_blank" rel="noreferrer">{item.organization} ↗</a>
-                          ) : item.organization}
-                        </p>
+                        <div className="compact-row__content">
+                          <strong>{item.title}</strong>
+                          {item.conferences ? (
+                            <ul className="conference-list">
+                              {item.conferences.map((conference) => (
+                                <li key={conference.label}>
+                                  {conference.href ? (
+                                    <a href={conference.href} target="_blank" rel="noreferrer">{conference.label} ↗</a>
+                                  ) : conference.label}
+                                </li>
+                              ))}
+                            </ul>
+                          ) : (
+                            <p>
+                              {item.href ? (
+                                <a href={item.href} target="_blank" rel="noreferrer">{item.organization} ↗</a>
+                              ) : item.organization}
+                            </p>
+                          )}
+                        </div>
                       </div>
                     ))}
                   </div>

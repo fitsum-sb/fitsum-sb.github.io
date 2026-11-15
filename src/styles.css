@@ -766,7 +766,8 @@ main {
   border-bottom: 1px solid var(--line);
 }
 
-.compact-row p {
+.compact-row p,
+.compact-row__content {
   margin: 0;
   color: var(--muted);
   font-size: 0.85rem;
@@ -776,6 +777,16 @@ main {
 .compact-row strong {
   color: var(--text);
   font-weight: 500;
+}
+
+.conference-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.conference-list li + li {
+  margin-top: 4px;
 }
 
 .contact {
