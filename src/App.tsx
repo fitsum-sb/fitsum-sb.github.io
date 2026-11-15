@@ -170,9 +170,13 @@ function App() {
               <p className="hero__intro">
                 I am a Ph.D. candidate in{" "}
                 <a href="https://www.eecs.psu.edu/departments/EECS-Departments-Computer-Science-Engineering3.aspx" target="_blank" rel="noreferrer">Computer Science and Engineering</a>{" "}
-                at <a href="https://www.psu.edu/" target="_blank" rel="noreferrer">The Pennsylvania State University</a>, where I conduct research alongside with <a href="https://www.ime.psu.edu/department/directory-detail-g.aspx?q=cld5070" target="_blank" rel="noreferrer">Prof. Christopher L. Dancy</a> at the <a href="https://thicc-lab.org/" target="_blank" rel="noreferrer">THiCC Lab</a>.
-                My research focuses on human–AI interaction, multimodal systems, and
-                empirical AI evaluation. My approach integrates cognitive theories of learning and decision-making to design human-in-the-loop systems and reproducible evaluation pipelines. Through these frameworks, I study uncertainty, calibration, and human correction to explore how human judgment can inform multimodal AI development without sacrificing rigor.
+                at <a href="https://www.psu.edu/" target="_blank" rel="noreferrer">The Pennsylvania State University</a>, where I conduct research with <a href="https://www.ime.psu.edu/department/directory-detail-g.aspx?q=cld5070" target="_blank" rel="noreferrer">Prof. Christopher L. Dancy</a> at the <a href="https://thicc-lab.org/" target="_blank" rel="noreferrer">THiCC Lab</a>.
+                My research focuses on computer vision, multimodal AI, and human–AI
+                interaction. Drawing on cognitive theories of learning and decision-making,
+                I build human-in-the-loop systems and reproducible evaluation pipelines.
+                I study uncertainty, calibration,
+                and human correction to understand how human judgment can improve the
+                reliability and evaluation of visual and multimodal AI systems.
               </p>
             </div>
           </section>
