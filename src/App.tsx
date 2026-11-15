@@ -154,7 +154,7 @@ function App() {
                 <h1>Fitsum S.<br />Beyene</h1>
               </div>
               <p className="hero__role">
-                School of Electrical Engineering and Computer Science · The Pennsylvania
+                School of Electrical Engineering and Computer Science, The Pennsylvania
                 State University
               </p>
               <div className="profile-links" aria-label="Profile links">
@@ -182,7 +182,7 @@ function App() {
           </section>
 
           <div className="status-strip" aria-label="Current status">
-            <span><i /> available · summer 2027</span>
+            <span><i /> available, summer 2027</span>
             <span></span>
             <a href="mailto:fsb5110@psu.edu">email me ↗</a>
           </div>
@@ -324,7 +324,8 @@ function App() {
                       <div className="compact-row" key={`${item.year}-${item.title}`}>
                         <span>{item.year}</span>
                         <p>
-                          <strong>{item.title}</strong><br />
+                          <strong>{item.title}{item.inline ? "," : ""}</strong>
+                          {item.inline ? " " : <br />}
                           {item.href ? (
                             <a href={item.href} target="_blank" rel="noreferrer">{item.organization} ↗</a>
                           ) : item.organization}

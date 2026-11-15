@@ -108,7 +108,7 @@ export const researchSystems: Work[] = [
     description:
       "A human-in-the-loop document artificial intelligence (AI) workbench for segmenting, optical character recognition (OCR) processing, annotating, reconstructing, and exporting historical newspaper pages. It supports independent submissions, intersection over union (IoU) consensus, disagreement review, interaction telemetry, and versioned archival exports.",
     stack:
-      "Python · FastAPI · React · TypeScript · PostgreSQL · ONNX · OpenCV · Tesseract · Docker · Cloudflare",
+      "Python, FastAPI, React, TypeScript, PostgreSQL, ONNX, OpenCV, Tesseract, Docker, Cloudflare",
     image: "/assets/gt-pipeline-canonical-review.png",
     imageAlt:
       "GT-Pipeline canonical review interface showing a historical newspaper page, annotation regions, and an automatic adjudicator",
@@ -129,7 +129,7 @@ export const researchSystems: Work[] = [
     description:
       "An interactive crisis-text classification and artificial intelligence (AI) audit lab for checkpoint comparison, held-out evaluation, and token-sensitivity analysis. The pipeline binds datasets, models, code, environments, and random seeds into reproducible experiment cells with fail-closed validation and independent metric recomputation.",
     stack:
-      "Python · FastAPI · PyTorch · Hugging Face Transformers · Pydantic · scikit-learn · JavaScript · 107 Python tests",
+      "Python, FastAPI, PyTorch, Hugging Face Transformers, Pydantic, scikit-learn, JavaScript, 107 Python tests",
     image: "/assets/cail-crisis-model-lab.png",
     imageAlt:
       "CAIL Crisis Model Lab overview showing the form, post, token inspection, and benchmark workflow",
@@ -145,7 +145,7 @@ export const researchSystems: Work[] = [
 export const selectedEngineering: Work[] = [
   {
     name: "Adot",
-    role: "Full-stack engineer · Africa to Silicon Valley",
+    role: "Full-stack engineer, Africa to Silicon Valley",
     description:
       "A maternal-health platform with patient, clinician, and administrative experiences. I contributed across mobile and web development, quality assurance and user acceptance testing (QA/UAT), and pre-launch operations.",
     image: "/assets/adot-website.png",
@@ -167,7 +167,7 @@ export const selectedEngineering: Work[] = [
   },
   {
     name: "Labconnect",
-    role: "Front-end engineer · Africa to Silicon Valley",
+    role: "Front-end engineer, Africa to Silicon Valley",
     description:
       "A platform for ordering laboratory tests and receiving results digitally, developed with a 25+ person engineering team. It received second place and a $4,000 award in the Africa to Silicon Valley (A2SV) project competition.",
     links: [
@@ -202,11 +202,11 @@ export const service = [
     conferences: [
       {
         label: "SIGCSE TS 2027",
-        href: "https://easychair.org/conferences/submissions?a=37743839",
+        href: "https://2027.sigcse-ts.acm.org/",
       },
       {
         label: "EAAI-27 (Main Track)",
-        href: "https://easychair.org/conferences/submissions?a=37537337",
+        href: "https://eaai-conf.github.io/year/eaai-27.html",
       },
       {
         label: "ACM FAccT 2027",
@@ -214,7 +214,7 @@ export const service = [
       },
       {
         label: "ICCM26",
-        href: "https://easychair.org/conferences/submissions?a=36407696",
+        href: "https://iccmsociety.org/2026_meeting/",
       },
     ],
   },
@@ -243,8 +243,8 @@ export const recognition = [
   {
     year: "2025–26",
     title: "Research Scholar",
-    organization: "Center for Black Digital Research",
-    href: "https://digblk.psu.edu/people/fitsum-beyene/",
+    organization: "Penn State University",
+    inline: true,
   },
   {
     year: "2024–25",
@@ -262,7 +262,7 @@ export const recognition = [
     year: "2025",
     title: "Artificial Intelligence (AI) Workshop",
     organization:
-      "Advanced Cyberinfrastructure Coordination Ecosystem: Services & Support (ACCESS)–National Artificial Intelligence Research Resource (NAIRR) · University of Colorado Boulder",
+      "Advanced Cyberinfrastructure Coordination Ecosystem: Services & Support (ACCESS)–National Artificial Intelligence Research Resource (NAIRR), University of Colorado Boulder",
     href: "https://www.credly.com/go/xQImijG8dRBa6dD0UE3Uew",
   },
   {
@@ -270,5 +270,6 @@ export const recognition = [
     title:
       "Grad Cohort for Inclusion, Diversity, Equity, Accessibility, and Leadership Skills (IDEALS)",
     organization: "Computing Research Association–Widening Participation (CRA-WP)",
+    href: "https://cra.org/cra-wp/",
   }
 ];
