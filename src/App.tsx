@@ -126,10 +126,8 @@ function App() {
           aria-label="Primary navigation"
         >
           <a href="#publications" onClick={closeMenu}>publications</a>
-          <a href="#cv" onClick={closeMenu}>cv</a>
           <a href="#news" onClick={closeMenu}>news</a>
-          <a href="#contact" onClick={closeMenu}>contact</a>
-          <a href="#research-tools" onClick={closeMenu}>research tools</a>
+          <a href="#research-tools" onClick={closeMenu}>tools</a>
         </nav>
 
         <button
@@ -148,20 +146,17 @@ function App() {
             <div className="hero__identity">
               <p className="terminal-label">fitsum@about:~$ whoami</p>
               <div className="hero__name-row">
-                <div className="hero__portrait" aria-label="Portrait placeholder">
-                  <span>FSB</span>
+                <div className="hero__portrait">
+                  <img src="/assets/profile.webp" alt="Profile portrait" width="970" height="1280" fetchPriority="high" decoding="async" />
                 </div>
                 <h1>Fitsum S.<br />Beyene</h1>
               </div>
-              <p className="hero__role">
-                School of Electrical Engineering and Computer Science, The Pennsylvania
-                State University
-              </p>
+
               <div className="profile-links" aria-label="Profile links">
                 <a href="mailto:fsb5110@psu.edu">Email ↗</a>
                 <a href="https://github.com/FII78" target="_blank" rel="noreferrer">GitHub ↗</a>
                 <a href="https://www.linkedin.com/in/fitsum-sileshi" target="_blank" rel="noreferrer">LinkedIn ↗</a>
-                <a href="https://orcid.org/0009-0009-2006-7580" target="_blank" rel="noreferrer">ORCID ↗</a>
+                <a href="https://scholar.google.com/citations?user=_zQLZUYAAAAJ&amp;hl=en" target="_blank" rel="noreferrer">Google Scholar</a>
               </div>
             </div>
 
